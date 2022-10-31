@@ -1,0 +1,19 @@
+body{
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-modern{
+    transition: all 0,4s ease;
+    border: 2px solid white;
+    font-size: 40px;
+}
+.btn-modern:hover{
+    background-color: aqua;
+    color: aliceblue;
+    transform: translateY(-5px);
+    box-shadow: 10px 5px 5px black;
+}
